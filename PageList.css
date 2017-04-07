@@ -1,0 +1,87 @@
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar {
+	width: 3px;
+	height: 3px;
+	background-color: #F5F5F5;
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 3px rgba(8, 8, 8, 0.3);
+	border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 3px rgba(8, 8, 8, .3);
+	background-color: #555;
+}
+
+.page_list {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.page_item {
+	height: 70px;
+	color: #76838f;
+	cursor: pointer;
+	font-size: 12px;
+	position: relative;
+	border: 1px solid #ccd5db;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background: #fff;
+	position: relative;
+}
+
+.page_item:hover {
+	box-shadow: 0 0 4px #CCD5DB;
+}
+
+.page_item_num {
+	float: left;
+	width: 0;
+	height: 0;
+	border-top: 35px solid #76838f;
+	border-right: 35px solid transparent;
+}
+
+.page_item_num_active {
+	border-top: 35px solid #08a1ef;
+	border-right: 35px solid transparent;
+}
+
+.page_item_num_em {
+	position: absolute;
+	top: 3px;
+	color: #fff;
+	left: 0;
+	display: block;
+	width: 20px;
+	text-align: center;
+}
+
+.page_item_title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.page_button_add {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+}

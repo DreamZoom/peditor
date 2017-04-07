@@ -1,0 +1,80 @@
+.logo {
+	float: left;
+	font-size: 20px;
+	color: white;
+	padding-left: 20px;
+}
+
+.page_editor {
+	height: 100%;
+}
+
+.page_slider {
+	background: #fff;
+}
+
+.page_content {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	/* 水平居中*/
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-pack: center;
+	/* IE 10 */
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
+	/* IE 11+,Firefox 22+,Chrome 29+,Opera 12.1*/
+	/* 垂直居中 */
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-align: center;
+	/* IE 10 */
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
+}
+
+.document_main {
+	overflow: auto;
+}
+
+.page_main {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.editor_header {
+	padding: 0;
+}
+
+.editor_tools {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+.editor_tools button {
+	margin-right: 10px;
+}
+
+.padding {
+	padding: 10px;
+}
+
+.editor_right_tools {
+	float: right;
+}
+
+.editor_right_tools button {
+	margin-right: 10px;
+}

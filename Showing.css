@@ -1,0 +1,30 @@
+.swiper{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.swiper_page{
+	position: relative;
+	background: #FFFFFF;
+}
+.shape{
+	position: absolute;
+}
+
+.shape img{
+	width: 100%;
+	max-height: 100%;
+}
+
+.showpage_warpper{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.showpage_warpper>div{
+ 	height: 100%;
+	width: 100%;
+}

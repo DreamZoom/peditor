@@ -1,0 +1,24 @@
+.padding_button{
+	padding: 10px;
+}
+
+.panel_list{
+	position: relative;
+}
+.panel_list .ant-collapse-header{
+	background: #CCD5DB;
+}
+.animation_item{
+   padding-left: 15px;
+   margin-bottom: 10px;
+}
+
+.animation_delete{
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	cursor:hand;
+}
+.animation_delete:hover{
+	color:red
+}
